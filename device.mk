@@ -497,3 +497,6 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
+
+# RealmeParts
+$(call inherit-product, packages/apps/RealmeParts/parts.mk)
