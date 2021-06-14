@@ -36,6 +36,7 @@ PRODUCT_NAME := lineage_r5x
 PRODUCT_MODEL := Realme 5 Series
 
 CIPHER_OFFICIAL := true
+TARGETFACEUNLOCK_SUPPORTED := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
 
