@@ -262,7 +262,8 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     init.perf.rc \
     ueventd.qcom.rc \
-    apex_metadata.rc
+    apex_metadata.rc \
+    set_baseband.sh 
 
 # IPv6
 PRODUCT_PACKAGES += \
