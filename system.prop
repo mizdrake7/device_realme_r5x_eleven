@@ -82,6 +82,14 @@ telephony.lteOnCdmaDevice=1
 # Seamless transfer
 sys.fflag.override.settings_seamless_transfer=true
 
+# Surfaceflinger
+ro.surface_flinger.protected_contents=true 
+ro.surface_flinger.use_smart_90_for_video=true 
+ro.surface_flinger.set_display_power_timer_ms=10000 
+ro.surface_flinger.set_touch_timer_ms=5000 
+ro.surface_flinger.set_idle_timer_ms=9000
+ro.surface_flinger.wcg_composition_dataspace=143261696
+
 # WFD
 persist.debug.wfd.enable=1
 persist.sys.wfd.virtual=0
