@@ -56,6 +56,10 @@ debug.cpurend.vsync=false
 # Force triple frame buffers
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
+# LMKD
+ro.config.low_ram=false
+ro.lmk.log_stats=true
+
 # Iorap
 iorapd.perfetto.enable=true
 iorapd.readahead.enable=true
