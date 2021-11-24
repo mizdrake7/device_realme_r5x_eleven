@@ -49,3 +49,6 @@
 
 # Oppo Health
 /vendor/bin/hw/android\.hardware\.health@2\.0-service\.oppo		u:object_r:hal_health_default_exec:s0
+
+# EGIS Fingerprint device
+/dev/esfp0  u:object_r:egis_device:s0
