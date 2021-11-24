@@ -463,6 +463,10 @@ PRODUCT_COPY_FILES += \
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
+# Google Photos Unlimited Backup
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/google/etc/sysconfig/pixel_2016_exclusive.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/pixel_2016_exclusive.xml
+
 #Vibrator
     PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service
