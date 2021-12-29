@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2018-2019 The CorvusOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common Lighthouse stuff
-$(call inherit-product, vendor/lighthouse/config/common_full_phone.mk)
+# Inherit some Dark stuff
+$(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 
 # Inherit from r5x device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -32,10 +32,8 @@ TARGET_INCLUDE_LIVE_WALLPAPERS := false
 PRODUCT_BRAND := Realme
 PRODUCT_DEVICE := r5x
 PRODUCT_MANUFACTURER := Realme
-PRODUCT_NAME := lighthouse_r5x
+PRODUCT_NAME := corvus_r5x
 PRODUCT_MODEL := Realme 5 Series
-WITH_GAPPS := true
-LIGHTHOUSE_BUILD_TYPE := OFFICIAL
 TARGET_FACEUNLOCK_SUPPORTED := true
 
 PRODUCT_GMS_CLIENTID_BASE := android-realme
@@ -46,7 +44,4 @@ TARGET_VENDOR_DEVICE_NAME := r5x
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="r5x" \
     PRIVATE_BUILD_DESC="redfin-user 11 RQ3A.210805.001.A1 7474174 release-keys"
-
 BUILD_FINGERPRINT := "google/redfin/redfin:11/RQ3A.210805.001.A1/7474174:user/release-keys"
-
-
