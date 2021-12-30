@@ -357,10 +357,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/lm/AdaptLaunchFeature.xml:$(TARGET_COPY_OUT_VENDOR)/etc/lm/AdaptLaunchFeature.xml \
     $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
-PRODUCT_BOOT_JARS += \
-    QPerformance \
-    UxPerformance
-
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-vendorcompat \
@@ -512,6 +508,3 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/realme/r5x/r5x-vendor.mk)
-
-# RealmeParts
-$(call inherit-product, packages/apps/RealmeParts/parts.mk)
