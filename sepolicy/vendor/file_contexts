@@ -30,6 +30,9 @@
 /dev/block/platform/soc/4804000.ufshc/by-name/oppodycnvbk		                                              u:object_r:modem_efs_partition_device:s0
 /dev/block/mmcblk0p36                                u:object_r:modem_efs_partition_device:s0
 
+# oppoVersion
+/proc/oppoVersion(/.*)?                                            u:object_r:proc_oppoversion:s0
+
 # Camera
 /mnt/vendor/persist/camera(/.*)?                                                             u:object_r:persist_camera_file:s0
 /vendor/bin/hw/vendor\.oppo\.hardware\.ktv@1\.0-service                                                 u:object_r:hal_camera_default_exec:s0
