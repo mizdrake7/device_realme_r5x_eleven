@@ -275,3 +275,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Graphics
 debug.sdm.support_writeback=0
+
+# Zygote
+PRODUCT_PROPERTY_OVERRIDES += \
+zygote.critical_window.minute=10
