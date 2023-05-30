@@ -1,1 +1,2 @@
 r_dir_file(vendor_hal_perf_default, proc_meminfo);
+allow vendor_hal_perf_default self:capability { sys_admin };
