@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2019 The CorvusOS Project
+# Copyright (C) 2022-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/corvus_r5x.mk
+    $(LOCAL_DIR)/carbon_r5x.mk
 
 COMMON_LUNCH_CHOICES := \
-    corvus_r5x-user \
-    corvus_r5x-userdebug \
-    corvus_r5x-eng
+    carbon_r5x-user \
+    carbon_r5x-userdebug \
+    carbon_r5x-eng
